@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 
 // Connecting Mongoose
 mongoose
-  .connect("mongodb://127.0.0.1:27017/youtube-app-1")
+  .connect("mongodb://localhost:27017/youtube-app-1")
   .then(() => console.log("MongoDB connected"))
   .catch((err) => console.log("Mongo Error", err));
 
